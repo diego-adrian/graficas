@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-01T23:49:32.798Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ufM8wYrlen9fwa_dCpHX" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-01T23:51:53.709Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="DZIe7NQq2oAOMDFDh-q1" version="20.2.5" type="github">
   <diagram id="VH0NiKDcuZNilybEYqnM" name="Page-1">
-    <mxGraphModel dx="1455" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1261" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,16 +21,16 @@
         <mxCell id="j9uIq2QjNMx6r6tdmkos-5" value="Portal SIPPASE" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
           <mxGeometry x="444.5" y="128" width="280" height="492" as="geometry" />
         </mxCell>
-        <mxCell id="j9uIq2QjNMx6r6tdmkos-6" value="ingresa a la &#xa;seccion de ayuda" style="" vertex="1" parent="j9uIq2QjNMx6r6tdmkos-5">
+        <mxCell id="j9uIq2QjNMx6r6tdmkos-6" value="ingresa a la &#xa;seccion de noticias" style="" vertex="1" parent="j9uIq2QjNMx6r6tdmkos-5">
           <mxGeometry x="85.5" y="110" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="j9uIq2QjNMx6r6tdmkos-7" value="Modulo de ayuda" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+        <mxCell id="j9uIq2QjNMx6r6tdmkos-7" value="Modulo de noticias" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
           <mxGeometry x="724.5" y="128" width="280" height="492" as="geometry" />
         </mxCell>
-        <mxCell id="j9uIq2QjNMx6r6tdmkos-8" value="Se espera que el&#xa;sistema grafique&#xa;un mapa con la&#xa;informacion de juzgados&#xa;y entidades" style="" vertex="1" parent="j9uIq2QjNMx6r6tdmkos-7">
+        <mxCell id="j9uIq2QjNMx6r6tdmkos-8" value="Se solicita que se listen&#xa;las ultimas noticias " style="" vertex="1" parent="j9uIq2QjNMx6r6tdmkos-7">
           <mxGeometry x="85.5" y="95" width="154.5" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="j9uIq2QjNMx6r6tdmkos-9" value="Se grafica el mapa&#xa;con la información de la&#xa;BD" style="" vertex="1" parent="j9uIq2QjNMx6r6tdmkos-7">
+        <mxCell id="j9uIq2QjNMx6r6tdmkos-9" value="Se genera la vista con&#xa;las ultimas noticias" style="" vertex="1" parent="j9uIq2QjNMx6r6tdmkos-7">
           <mxGeometry x="85.5" y="259" width="154.5" height="88" as="geometry" />
         </mxCell>
         <mxCell id="j9uIq2QjNMx6r6tdmkos-10" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="j9uIq2QjNMx6r6tdmkos-7">
@@ -51,7 +51,7 @@
         <mxCell id="j9uIq2QjNMx6r6tdmkos-13" value="Base de datos" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
           <mxGeometry x="1004.5" y="128" width="280" height="492" as="geometry" />
         </mxCell>
-        <mxCell id="j9uIq2QjNMx6r6tdmkos-14" value="se consulta sobre&#xa;las direcciones" style="" vertex="1" parent="j9uIq2QjNMx6r6tdmkos-13">
+        <mxCell id="j9uIq2QjNMx6r6tdmkos-14" value="Se consulta a la&#xa;BD sobre noticias" style="" vertex="1" parent="j9uIq2QjNMx6r6tdmkos-13">
           <mxGeometry x="85" y="110" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j9uIq2QjNMx6r6tdmkos-15" value="Se procesa y&#xa;retorna los datos" style="" vertex="1" parent="j9uIq2QjNMx6r6tdmkos-13">
