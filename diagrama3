@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T02:06:55.268Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="htQraQmp759b2A6flXYa" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-02T02:16:33.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hwmHTfFpUI2ZY5gu5xKe" version="20.2.5" type="github">
   <diagram id="mXZOw2dHTpDISuxaiFKR" name="Page-1">
     <mxGraphModel dx="1051" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,8 +19,32 @@
             <mxPoint x="294.74100000000004" y="92" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k43HDgZANuUIWN5eAXgm-22" value="Observa las opciones&#xa;que retorna el modulo&#xa;de estadisticas" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-1">
+        <mxCell id="k43HDgZANuUIWN5eAXgm-22" value="Selecciona una grafica" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-1">
           <mxGeometry x="45.5" y="206" width="155.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k43HDgZANuUIWN5eAXgm-25" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="k43HDgZANuUIWN5eAXgm-1">
+          <mxGeometry x="108.5" y="456" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k43HDgZANuUIWN5eAXgm-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.461;exitY=0.985;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="k43HDgZANuUIWN5eAXgm-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125.72450000000003" y="285.99999999999983" as="sourcePoint" />
+            <mxPoint x="125.5" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k43HDgZANuUIWN5eAXgm-27" value="Quiere exportar &lt;br&gt;datos de la grafica seleccionada?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="k43HDgZANuUIWN5eAXgm-1">
+          <mxGeometry x="44" y="322" width="165" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="k43HDgZANuUIWN5eAXgm-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.461;exitY=0.985;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="k43HDgZANuUIWN5eAXgm-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="126.22450000000003" y="427.9999999999998" as="sourcePoint" />
+            <mxPoint x="126" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k43HDgZANuUIWN5eAXgm-32" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="k43HDgZANuUIWN5eAXgm-1">
+          <mxGeometry x="78.5" y="426" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k43HDgZANuUIWN5eAXgm-33" value="SI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="k43HDgZANuUIWN5eAXgm-1">
+          <mxGeometry x="220" y="331" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k43HDgZANuUIWN5eAXgm-5" value="Portal SIPPASE" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
           <mxGeometry x="444.5" y="128" width="280" height="492" as="geometry" />
@@ -28,10 +52,16 @@
         <mxCell id="k43HDgZANuUIWN5eAXgm-6" value="ingresa a la &#xa;seccion de estadisticas&#xa;oficiales" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-5">
           <mxGeometry x="56" y="95" width="155.5" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="k43HDgZANuUIWN5eAXgm-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.997;entryY=0.461;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="k43HDgZANuUIWN5eAXgm-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="451.5" y="392.12" as="sourcePoint" />
+            <mxPoint x="-73.46649999999977" y="392.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="k43HDgZANuUIWN5eAXgm-7" value="Modulo de estadisticas oficiales" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
           <mxGeometry x="724.5" y="128" width="280" height="492" as="geometry" />
         </mxCell>
-        <mxCell id="k43HDgZANuUIWN5eAXgm-8" value="Se lista las secciones de&#xa;graficas" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-7">
+        <mxCell id="k43HDgZANuUIWN5eAXgm-8" value="Se lista todas las&#xa;graficas" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-7">
           <mxGeometry x="85.5" y="95" width="154.5" height="88" as="geometry" />
         </mxCell>
         <mxCell id="k43HDgZANuUIWN5eAXgm-9" value="Se grafica el mapa&#xa;con la información de la&#xa;BD" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-7">
