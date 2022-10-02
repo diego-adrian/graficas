@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T00:42:43.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="wD0i2rqoILVpJYDFowRQ" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-02T02:06:55.268Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="htQraQmp759b2A6flXYa" version="20.2.5" type="github">
   <diagram id="mXZOw2dHTpDISuxaiFKR" name="Page-1">
     <mxGraphModel dx="1051" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,24 +10,28 @@
         <mxCell id="k43HDgZANuUIWN5eAXgm-2" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="k43HDgZANuUIWN5eAXgm-1">
           <mxGeometry x="100" y="40" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k43HDgZANuUIWN5eAXgm-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="k43HDgZANuUIWN5eAXgm-1" source="k43HDgZANuUIWN5eAXgm-2" target="k43HDgZANuUIWN5eAXgm-4">
-          <mxGeometry x="100" y="40" as="geometry">
-            <mxPoint x="115" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="k43HDgZANuUIWN5eAXgm-4" value="Ingresa al portal" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-1">
           <mxGeometry x="60" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k43HDgZANuUIWN5eAXgm-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="k43HDgZANuUIWN5eAXgm-1" source="k43HDgZANuUIWN5eAXgm-2" target="k43HDgZANuUIWN5eAXgm-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130.00000000000006" y="93.99999999999989" as="sourcePoint" />
+            <mxPoint x="294.74100000000004" y="92" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k43HDgZANuUIWN5eAXgm-22" value="Observa las opciones&#xa;que retorna el modulo&#xa;de estadisticas" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-1">
+          <mxGeometry x="45.5" y="206" width="155.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="k43HDgZANuUIWN5eAXgm-5" value="Portal SIPPASE" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
           <mxGeometry x="444.5" y="128" width="280" height="492" as="geometry" />
         </mxCell>
-        <mxCell id="k43HDgZANuUIWN5eAXgm-6" value="ingresa a la &#xa;seccion de ayuda" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-5">
-          <mxGeometry x="85.5" y="110" width="110" height="50" as="geometry" />
+        <mxCell id="k43HDgZANuUIWN5eAXgm-6" value="ingresa a la &#xa;seccion de estadisticas&#xa;oficiales" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-5">
+          <mxGeometry x="56" y="95" width="155.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="k43HDgZANuUIWN5eAXgm-7" value="Modulo de estadisticas oficiales" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
           <mxGeometry x="724.5" y="128" width="280" height="492" as="geometry" />
         </mxCell>
-        <mxCell id="k43HDgZANuUIWN5eAXgm-8" value="Se espera que el&#xa;sistema grafique&#xa;un mapa con la&#xa;informacion de juzgados&#xa;y entidades" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-7">
+        <mxCell id="k43HDgZANuUIWN5eAXgm-8" value="Se lista las secciones de&#xa;graficas" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-7">
           <mxGeometry x="85.5" y="95" width="154.5" height="88" as="geometry" />
         </mxCell>
         <mxCell id="k43HDgZANuUIWN5eAXgm-9" value="Se grafica el mapa&#xa;con la información de la&#xa;BD" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-7">
@@ -40,6 +44,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="25.5" y="392.14" as="sourcePoint" />
             <mxPoint x="156.5999999999999" y="429.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k43HDgZANuUIWN5eAXgm-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.444;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="k43HDgZANuUIWN5eAXgm-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165.5" y="242" as="sourcePoint" />
+            <mxPoint x="163.94200000000012" y="182.07999999999993" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k43HDgZANuUIWN5eAXgm-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.986;exitY=0.54;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.018;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k43HDgZANuUIWN5eAXgm-4" target="k43HDgZANuUIWN5eAXgm-6">
@@ -79,6 +89,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1065.8899999999999" y="480.14" as="sourcePoint" />
             <mxPoint x="1233.109" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k43HDgZANuUIWN5eAXgm-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.997;entryY=0.461;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="k43HDgZANuUIWN5eAXgm-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="371" as="sourcePoint" />
+            <mxPoint x="575" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
