@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T02:25:55.696Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="elGY3p_qUVQ38Qfge7S8" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-02T02:26:39.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RO-5xm4Dvz4nYcC3Idye" version="20.2.5" type="github">
   <diagram id="idQtub40El-p545NqEux" name="Page-1">
     <mxGraphModel dx="946" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -49,13 +49,13 @@
         <mxCell id="s2u6wYOZFHuYJrzYpdbk-12" value="Portal SIPPASE" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
           <mxGeometry x="444.5" y="128" width="280" height="492" as="geometry" />
         </mxCell>
-        <mxCell id="s2u6wYOZFHuYJrzYpdbk-13" value="ingresa a la &#xa;seccion de cursos" style="" vertex="1" parent="s2u6wYOZFHuYJrzYpdbk-12">
+        <mxCell id="s2u6wYOZFHuYJrzYpdbk-13" value="ingresa a la &#xa;seccion de multimedia" style="" vertex="1" parent="s2u6wYOZFHuYJrzYpdbk-12">
           <mxGeometry x="56" y="95" width="155.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="s2u6wYOZFHuYJrzYpdbk-14" value="Modulo de cursos multimedia" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+        <mxCell id="s2u6wYOZFHuYJrzYpdbk-14" value="Modulo de multimedia" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
           <mxGeometry x="724.5" y="128" width="280" height="492" as="geometry" />
         </mxCell>
-        <mxCell id="s2u6wYOZFHuYJrzYpdbk-15" value="Se lista por secciones&#xa;- cursos&#xa;- inscripciones&#xa;- lecciones&#xa;- certificaciones" style="" vertex="1" parent="s2u6wYOZFHuYJrzYpdbk-14">
+        <mxCell id="s2u6wYOZFHuYJrzYpdbk-15" value="Se lista por secciones&#xa;- cursos&#xa;- inscripciones&#xa;- lecciones&#xa;- certificaciones&#xa;- reportes" style="" vertex="1" parent="s2u6wYOZFHuYJrzYpdbk-14">
           <mxGeometry x="85.5" y="95" width="154.5" height="88" as="geometry" />
         </mxCell>
         <mxCell id="s2u6wYOZFHuYJrzYpdbk-16" value="Se genera la data&#xa;para exportar" style="" vertex="1" parent="s2u6wYOZFHuYJrzYpdbk-14">
