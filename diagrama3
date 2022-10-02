@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-01T23:59:05.829Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ZBoxasd8lTzvLh4l_PZp" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-02T00:42:43.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="wD0i2rqoILVpJYDFowRQ" version="20.2.5" type="github">
   <diagram id="mXZOw2dHTpDISuxaiFKR" name="Page-1">
-    <mxGraphModel dx="946" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1051" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,7 +24,7 @@
         <mxCell id="k43HDgZANuUIWN5eAXgm-6" value="ingresa a la &#xa;seccion de ayuda" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-5">
           <mxGeometry x="85.5" y="110" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="k43HDgZANuUIWN5eAXgm-7" value="Modulo de ayuda" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+        <mxCell id="k43HDgZANuUIWN5eAXgm-7" value="Modulo de estadisticas oficiales" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
           <mxGeometry x="724.5" y="128" width="280" height="492" as="geometry" />
         </mxCell>
         <mxCell id="k43HDgZANuUIWN5eAXgm-8" value="Se espera que el&#xa;sistema grafique&#xa;un mapa con la&#xa;informacion de juzgados&#xa;y entidades" style="" vertex="1" parent="k43HDgZANuUIWN5eAXgm-7">
